@@ -24,4 +24,8 @@ public class MainCalc {
         int result = x % y;
         return result;
     }
+    public static double add (double x, double y) {
+        double result = x + y;
+        return result;
+    }
 }

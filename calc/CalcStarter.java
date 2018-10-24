@@ -15,5 +15,7 @@ public class CalcStarter {
            System.out.println("power of 4 is " + e);
          int f = MainCalc.mod(34,5 );
            System.out.println("34 mod is " + f);
+         double g = MainCalc.add(23.3, 35.2);
+           System.out.println("add double is " + g);
     }
 }
