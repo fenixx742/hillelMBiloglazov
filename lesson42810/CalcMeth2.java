@@ -12,9 +12,10 @@ public class CalcMeth2 {
         int result = i & 1;
         if (result == 0)
         System.out.println(result + " 100 is even");
-        else {
+         else {
             if (result != 0)
                 System.out.println(result + " is odd");
+             else System.out.println("error occured");
         }
 
     }
