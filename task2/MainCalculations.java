@@ -11,7 +11,7 @@ public class MainCalculations {
         int c = CalcMethods.MethMoreMod(100,40,4);
           System.out.println("( 100 + 40 ) / 12 * 4 % 4 + 40 is " + c);
 
-        int d = CalcMethods.MethMoreMoreMod(4,25,5);
-          System.out.println("(a - b * c ) / ( a + b ) % c is " + d);
+        int d = CalcMethods.MethMoreMoreMod(4,25,3);
+          System.out.println("(4 - 25 * 3 ) / ( 4 + 25 ) % 3 is " + d);
   }
 }
