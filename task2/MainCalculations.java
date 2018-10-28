@@ -12,6 +12,6 @@ public class MainCalculations {
           System.out.println("( 100 + 40 ) / 12 * 4 % 4 + 40 is " + c);
 
         int d = CalcMethods.MethMoreMoreMod(4,25,3);
-          System.out.println("(4 - 25 * 3 ) / ( 4 + 25 ) % 3 is " + d); //qwerty
+          System.out.println("(4 - 25 * 3 ) / ( 4 + 25 ) % 3 is " + d); //added numbers to args a,b,c into println
   }
 }
