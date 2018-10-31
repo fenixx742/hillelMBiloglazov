@@ -13,6 +13,10 @@ public class TrainsCollision {
 
         System.out.println();
 
+        /*
+        check without if / else statements
+         */
+
         System.out.print("Collision is ");
         System.out.print(v1 == v2);
         System.out.print(" if both trains will proceed 5 km and even speed");
