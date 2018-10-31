@@ -4,7 +4,7 @@ public class MainCalculations {
     public static void main (String args[]) {
         System.out.println("2240 UAH is " + UahToUsdConv.usDollarsConv(28.5, 2240) + " dollars"); // Converter
 
-        System.out.println(SummationNums.sumNum(123) + " is summation of 123"); // three numbers summition
+        System.out.println(SummationNums.sumNum(123) + " is summation of 123"); // three numbers summation
 
         System.out.println();
 
