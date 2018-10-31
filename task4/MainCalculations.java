@@ -18,6 +18,6 @@ public class MainCalculations {
 
         System.out.println("<>Train Collision Check<>");
 
-        TrainsCollision.trains(50, 61);
+        TrainsCollision.trains(40, 61); // for check insert 40 and 60
     }
 }
