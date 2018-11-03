@@ -19,5 +19,11 @@ public class MainCalculations {
         System.out.println("<>Train Collision Check<>");
 
         TrainsCollision.trains(40, 61); // for check insert 40 and 60
+
+        System.out.println();
+
+        System.out.println("<>Решение квадратного уравнения<>");
+
+        Discriminant.discrimCoefCalc(3,33,1);
     }
 }
