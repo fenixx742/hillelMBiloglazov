@@ -1,5 +1,6 @@
 package com.hillel.practice0411;
 
+import com.hillel.Utils.ForLoop;
 import com.hillel.Utils.MathRandomNums;
 import com.hillel.Utils.Scaner;
 
@@ -26,11 +27,9 @@ public class Main {
 //
 //        System.out.println("ваш возраст:  " + year);
 
-        // Cycles
+         /*Cycles and increments*/
 
-        for (int i = 1; i < 10; i++) {
-            System.out.println(i);
-        }
+        ForLoop.loop(1,9);
 
 
     }
