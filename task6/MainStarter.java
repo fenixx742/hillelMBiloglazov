@@ -43,6 +43,7 @@ public class MainStarter {
         System.out.println();
 
         // sub task 6
+
         System.out.println("here is summition of 100 randoom numbers between -20 and 20 look below ");
         Random20to20Sum.summition100();
 
@@ -53,6 +54,8 @@ public class MainStarter {
         // sub task 8
         System.out.println();
         StringsIndexCkeck.textCheck();
+
+
 
     }
 }
