@@ -10,9 +10,5 @@ public class Main0711 {
         }
         System.out.println(sum);
 
-        for (int i = 0; i < 50; i++) {
-            int x = RandomNumsUniversal.randomNums(0,20);
-            System.out.println(x);
         }
     }
-}
