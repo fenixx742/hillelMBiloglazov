@@ -2,6 +2,8 @@ package com.hillel.task6;
 
 import com.hillel.Utils.ForLoop;
 import com.hillel.Utils.Scaner;
+import com.hillel.Utils.MathRandomNums20to20;
+import com.hillel.Utils.MathRandomNumsMin10to9;
 
 public class MainStarter {
     public static void main(String args[]) {
@@ -33,11 +35,22 @@ public class MainStarter {
 
         // sub task 5
 
-        System.out.println("Enter yours birth year: ");
+//        System.out.println("Enter yours birth year: ");
+//
+//       int x =  AgeCalc.birthYearInput();
+//
+//        System.out.println(x);
+//        System.out.println();
 
-       int x =  AgeCalc.birthYearInput();
+        // sub task 6
+        System.out.println("here is summition of 100 randoom numbers between -20 and 20 look below ");
+        Random20to20Sum.summition100();
 
-        System.out.println(x);
+        // sub task 7
+        System.out.println();
+
+        MathRandomNumsMin10to9.getRandomNums()
+
 
 
 

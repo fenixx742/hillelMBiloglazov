@@ -1,6 +1,6 @@
 package com.hillel.task6;
 
-import com.hillel.Utils.MathRandomNums;
+import com.hillel.Utils.MathRandomNums0to1;
 
 public class EaglesAndTailsVer2 {
     public static void randomCalc() {
@@ -9,7 +9,7 @@ public class EaglesAndTailsVer2 {
 
         for (int tries = 1; tries <= 2000; tries++) {
 
-            int check = MathRandomNums.getRandomNums(0, 1);
+            int check = MathRandomNums0to1.getRandomNums(0, 1);
 
             if (check == 0) {
                 sumZeros++;
