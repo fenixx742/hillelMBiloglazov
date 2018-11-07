@@ -6,7 +6,8 @@ public class StringsIndexCkeck {
         String inStr = "Одесса мой город родной";
         System.out.println(" index of 'o'is ");
         System.out.println(inStr.indexOf('О'));
-            System.out.println(inStr.indexOf('о'));
+        System.out.println(inStr.indexOf('о'));
+
 
     }
 }

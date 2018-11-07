@@ -35,12 +35,12 @@ public class MainStarter {
 
         // sub task 5
 
-//        System.out.println("Enter yours birth year: ");
-//
-//       int x =  AgeCalc.birthYearInput();
-//
-//        System.out.println(x);
-//        System.out.println();
+        System.out.println("Enter yours birth year: ");
+
+       int x =  AgeCalc.birthYearInput();
+
+        System.out.println(x);
+        System.out.println();
 
         // sub task 6
         System.out.println("here is summition of 100 randoom numbers between -20 and 20 look below ");
@@ -51,6 +51,7 @@ public class MainStarter {
         Random10to9Sum.summition100();
 
         // sub task 8
+        System.out.println();
         StringsIndexCkeck.textCheck();
 
     }
