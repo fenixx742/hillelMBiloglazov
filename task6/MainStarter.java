@@ -47,12 +47,11 @@ public class MainStarter {
         Random20to20Sum.summition100();
 
         // sub task 7
-        System.out.println();
+        System.out.println("here is summition of 100 randoom numbers between -10 and excluding 9  look below ");
+        Random10to9Sum.summition100();
 
-        MathRandomNumsMin10to9.getRandomNums()
-
-
-
+        // sub task 8
+        StringsIndexCkeck.textCheck();
 
     }
 }
