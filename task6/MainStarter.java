@@ -35,12 +35,12 @@ public class MainStarter {
 
         // sub task 5
 
-        System.out.println("Enter yours birth year: ");
-
-       int x =  AgeCalc.birthYearInput();
-
-        System.out.println(x);
-        System.out.println();
+//        System.out.println("Enter yours birth year: ");
+//
+//       int x =  AgeCalc.birthYearInput();
+//
+//        System.out.println(x);
+//        System.out.println();
 
         // sub task 6
 
