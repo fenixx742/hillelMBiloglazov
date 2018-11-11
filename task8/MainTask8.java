@@ -10,7 +10,8 @@ public class MainTask8 {
        Countdown.getCount();
         System.out.println("progression");
        Progression.getProgress();
-
+        System.out.println();
+        Factor.getFactorial();
 
 
     }
