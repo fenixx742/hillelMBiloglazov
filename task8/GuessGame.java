@@ -1,4 +1,4 @@
-package com.hillel.task7;
+package com.hillel.task8;
 import com.hillel.Utils.Scaner;
 import com.hillel.Utils.RandomNumsUniversal;
 
