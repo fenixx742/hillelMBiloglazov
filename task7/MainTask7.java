@@ -4,7 +4,7 @@ import com.hillel.Utils.Scaner;
 public class MainTask7 {
     public static void main(String[] args) {
         ArrayMinMaxNums.getMinMaxFind();
-       GuessGame2.getRandomNumAndGuess();
+
 
 
     }
