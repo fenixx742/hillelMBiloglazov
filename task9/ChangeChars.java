@@ -1,7 +1,5 @@
 package com.hillel.task9;
 
-import com.hillel.Utils.ShowArray;
-
 public class ChangeChars {
     public static char[] getChangeIndex1(char[] c, int index1, int index2) {
         char[] updatedArray = new char[c.length];
