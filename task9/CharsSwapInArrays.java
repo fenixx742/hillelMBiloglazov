@@ -1,6 +1,6 @@
 package com.hillel.task9;
 
-public class ChangeChars {
+public class CharsSwapInArrays {
     public static char[] getChangeIndexes(char[] c, int index1, int index2) {
         char[] updatedArray = new char[c.length];
 

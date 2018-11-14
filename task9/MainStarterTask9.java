@@ -23,7 +23,7 @@ public class MainStarterTask9 {
         char [] arrChars = {'r', 'o', 'l', 'o', 'c'};
         ShowArrayChars.showArray(arrChars);
 
-        char [] updatedArrChars = ChangeChars.getChangeIndexes(arrChars,0,4) ;
+        char [] updatedArrChars = CharsSwapInArrays.getChangeIndexes(arrChars,0,4) ;
         System.out.println("This is updated array");
         ShowArrayChars.showArray(updatedArrChars);
 
