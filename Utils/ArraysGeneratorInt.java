@@ -5,7 +5,7 @@ public class ArraysGeneratorInt {
         int [] randomNumsArray = new int[arraySize];
         for (int i = 0; i < randomNumsArray.length; i++) {
 
-            randomNumsArray [i] = RandomNumsUniversal.randomNums(10,99);
+            randomNumsArray [i] = RandomNumsUniversal.randomNums(0,30);
             
         }
         return randomNumsArray;

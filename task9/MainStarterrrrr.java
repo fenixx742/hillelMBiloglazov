@@ -5,6 +5,7 @@ import com.hillel.Utils.ShowArrayDoubles;
 import com.hillel.Utils.ArrayAverage;
 import com.hillel.Utils.ShowArrayIntegers;
 import com.hillel.Utils.ArraysGeneratorInt;
+import com.hillel.Utils.ShowArray;
 
 public class MainStarterrrrr {
     public static void main(String[] args) {
@@ -22,7 +23,7 @@ public class MainStarterrrrr {
         char [] arrChars = {'r', 'o', 'l', 'o', 'c'};
         ShowArrayChars.showArray(arrChars);
 
-       char [] updatedArrChars = ChangeChars.getChangeIndex1(arrChars,0,4) ;
+        char [] updatedArrChars = ChangeChars.getChangeIndex1(arrChars,0,4) ;
         System.out.println("This is updated array");
         ShowArrayChars.showArray(updatedArrChars);
 
@@ -59,8 +60,8 @@ public class MainStarterrrrr {
         System.out.println();
 
         int [] array = ArraysGeneratorInt.initializeGenerator(10);
-        ShowArrayIntegers.showArray(array);
-
+        ShowArray.showArray(array);
+        OppositeOrder.getOpposite(array);
 
 
 
