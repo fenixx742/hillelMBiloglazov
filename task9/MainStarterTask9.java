@@ -23,7 +23,7 @@ public class MainStarterTask9 {
         char [] arrChars = {'r', 'o', 'l', 'o', 'c'};
         ShowArrayChars.showArray(arrChars);
 
-        char [] updatedArrChars = ChangeChars.getChangeIndex1(arrChars,0,4) ;
+        char [] updatedArrChars = ChangeChars.getChangeIndexes(arrChars,0,4) ;
         System.out.println("This is updated array");
         ShowArrayChars.showArray(updatedArrChars);
 
@@ -32,6 +32,7 @@ public class MainStarterTask9 {
         System.out.println();
 
         double [] arrDoubles = {2.13,3.533,-6.6,4.6,-3.5,-2.6,0.24};
+
 
         System.out.println("Original Array");
         ShowArrayDoubles.showArray(arrDoubles);

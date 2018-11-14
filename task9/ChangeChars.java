@@ -1,7 +1,7 @@
 package com.hillel.task9;
 
 public class ChangeChars {
-    public static char[] getChangeIndex1(char[] c, int index1, int index2) {
+    public static char[] getChangeIndexes(char[] c, int index1, int index2) {
         char[] updatedArray = new char[c.length];
 
         for (int i = 0; i < c.length; i++) {
