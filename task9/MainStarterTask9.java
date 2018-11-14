@@ -7,7 +7,7 @@ import com.hillel.Utils.ShowArrayIntegers;
 import com.hillel.Utils.ArraysGeneratorInt;
 import com.hillel.Utils.ShowArray;
 
-public class MainStarterrrrr {
+public class MainStarterTask9 {
     public static void main(String[] args) {
 
        // sub task 1
